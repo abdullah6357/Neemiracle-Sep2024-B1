@@ -36,16 +36,16 @@ The score is calculated based on correct guesses, and the game ends after one ro
 **scrape_quotes():**
 Scrapes the homepage of the "Quotes to Scrape" website for quotes and their details (text, author, and birthdate)
 
-**scrape_author_bdate(url):**
+**scrape_author_bdate():**
 Fetches the author's birthdate by scraping the biography page.
 
-**play_game_with_four_chances(quotes_with_info):**
+**play_game_with_four_chances():**
  The user gets four chances to guess the author with hints provided after each incorrect attempt.
 
-**author_name_hint(auth):**
+**author_name_hint():**
 Provides hints about the author's name.
 
-**hints_display(quote):**
+**hints_display():**
 Displays hints based on the quote and author details , providing one hint per incorrect attempt.
 
 
